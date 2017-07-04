@@ -3,8 +3,8 @@ import * as functions from 'firebase-functions'
 import * as admin from 'firebase-admin'
 import { db } from './db'
 
-import * as folder1 from './folder1'
-import * as folder2 from './folder2'
+import * as folder1 from './lib/folder1'
+import * as folder2 from './lib/folder2'
 
 admin.initializeApp(functions.config().firebase)
 
