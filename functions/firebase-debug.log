@@ -1,0 +1,54 @@
+[debug] [2017-07-04T13:52:06.827Z] ----------------------------------------------------------------------
+[debug] [2017-07-04T13:52:06.832Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\AdMin\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy --only functions
+[debug] [2017-07-04T13:52:06.833Z] CLI Version:  3.9.1
+[debug] [2017-07-04T13:52:06.833Z] Platform:     win32
+[debug] [2017-07-04T13:52:06.833Z] Node Version: v6.10.3
+[debug] [2017-07-04T13:52:06.833Z] Time:         Tue Jul 04 2017 18:52:06 GMT+0500 (Russia TZ 4 Standard Time)
+[debug] [2017-07-04T13:52:06.834Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-04T13:52:06.853Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-04T13:52:06.854Z] > authorizing via signed-in user
+[debug] [2017-07-04T13:52:06.859Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/test-project-5a3f4  
+ Tue Jul 04 2017 18:52:06 GMT+0500 (Russia TZ 4 Standard Time)
+[debug] [2017-07-04T13:52:08.914Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-04T13:52:08.915Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/test-project-5a3f4/tokens  
+ Tue Jul 04 2017 18:52:08 GMT+0500 (Russia TZ 4 Standard Time)
+[debug] [2017-07-04T13:52:10.020Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'test-project-5a3f4'...
+[info] 
+[info] i  deploying functions
+[debug] [2017-07-04T13:52:12.512Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "start": "",
+    "build": "webpack",
+    "deploy": "firebase deploy --only functions"
+  },
+  "dependencies": {
+    "firebase-admin": "^4.1.2",
+    "firebase-functions": "^0.5"
+  },
+  "private": true,
+  "devDependencies": {
+    "ts-loader": "^2.2.2",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[info] i  runtimeconfig: ensuring necessary APIs are enabled...
+[debug] [2017-07-04T13:52:12.516Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/test-project-5a3f4?view=CONSUMER_VIEW  
+ Tue Jul 04 2017 18:52:12 GMT+0500 (Russia TZ 4 Standard Time)
+[debug] [2017-07-04T13:52:12.517Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/test-project-5a3f4?view=CONSUMER_VIEW  
+ Tue Jul 04 2017 18:52:12 GMT+0500 (Russia TZ 4 Standard Time)
+[debug] [2017-07-04T13:52:14.411Z] <<< HTTP RESPONSE 200
+[info] +  runtimeconfig: all necessary APIs are enabled
+[debug] [2017-07-04T13:52:14.569Z] <<< HTTP RESPONSE 200
+[info] +  functions: all necessary APIs are enabled
+[debug] [2017-07-04T13:52:14.571Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/test-project-5a3f4  
+ Tue Jul 04 2017 18:52:14 GMT+0500 (Russia TZ 4 Standard Time)
+[debug] [2017-07-04T13:52:14.572Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/test-project-5a3f4/apiKeys  
+ Tue Jul 04 2017 18:52:14 GMT+0500 (Russia TZ 4 Standard Time)
+[debug] [2017-07-04T13:52:16.194Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-04T13:52:16.389Z] <<< HTTP RESPONSE 200

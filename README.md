@@ -1,3 +1,1 @@
-goto functions folder(`cd functions`) and run command `webpack` to build project
-
-go back to root(`cd ..`) and run command `firebase deploy` to deploy on firebase
+goto functions folder(`cd functions`) install dependency with `npm install` and build project with `npm run build` and deploy on firebase with `npm run deploy`
