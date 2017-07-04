@@ -1,10 +1,12 @@
 // src/index.ts
 import * as functions from 'firebase-functions'
 import * as admin from 'firebase-admin'
-import * as AddMessage from './addMessage'
-import * as UpCaseMessages from './uppercase'
+import { db } from './db'
+
+import * as folder1 from './folder1'
+import * as folder2 from './folder2'
 
 admin.initializeApp(functions.config().firebase)
 
-export const addMessage = AddMessage.listener
-export const makeUpperCase = UpCaseMessages.listener
+export const foo = folder1.foo
+export const baz = folder2.baz
