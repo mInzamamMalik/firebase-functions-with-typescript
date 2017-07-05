@@ -3,4 +3,5 @@ import * as admin from 'firebase-admin'
 
 var defaultApp = admin.initializeApp(functions.config().firebase)
 
-export const db = admin.database();
+const db = admin.database();
+export default db;

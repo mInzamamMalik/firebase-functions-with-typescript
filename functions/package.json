@@ -3,7 +3,7 @@
   "description": "Cloud Functions for Firebase",
   "scripts": {
     "start": "",
-    "build": "webpack",
+    "build": "webpack --watch",
     "deploy": "firebase deploy --only functions"
   },
   "dependencies": {
