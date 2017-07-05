@@ -13,6 +13,8 @@
   "private": true,
   "devDependencies": {
     "ts-loader": "^2.2.2",
-    "webpack-node-externals": "^1.6.0"
+    "webpack-node-externals": "^1.6.0",
+    "webpack": "^3.0.0",
+    "typescript": "^2.4.1"
   }
 }
