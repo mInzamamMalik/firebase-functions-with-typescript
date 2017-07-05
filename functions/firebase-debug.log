@@ -316,3 +316,62 @@
 [debug] [2017-07-05T13:31:21.904Z] [functions] operation poll: fun6: update operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjYvT05ZcWN0RUpjNlk is not done.
 [debug] [2017-07-05T13:31:21.920Z] [functions] operation poll: fun7: update operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjcvQ1pyRzFzNHcyUUE is not done.
 [debug] [2017-07-05T13:31:21.920Z] [functions] operation poll: fun8: update operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjgvQi1McUJuR1ZRLUE is not done.
+[debug] [2017-07-05T13:31:26.922Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1beta2/operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjEvSDBqcTFIVko2N0k  
+ Wed Jul 05 2017 18:31:26 GMT+0500 (Russia TZ 4 Standard Time)
+[debug] [2017-07-05T13:31:26.922Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1beta2/operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjIvUkw4MGRfYzF2a2M  
+ Wed Jul 05 2017 18:31:26 GMT+0500 (Russia TZ 4 Standard Time)
+[debug] [2017-07-05T13:31:26.922Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1beta2/operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjMvT0o0RVFFekJ4QkU  
+ Wed Jul 05 2017 18:31:26 GMT+0500 (Russia TZ 4 Standard Time)
+[debug] [2017-07-05T13:31:26.922Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1beta2/operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjQvcEV6bnhOV3hVMFU  
+ Wed Jul 05 2017 18:31:26 GMT+0500 (Russia TZ 4 Standard Time)
+[debug] [2017-07-05T13:31:26.922Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1beta2/operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjUvczRPVmlISWxVT28  
+ Wed Jul 05 2017 18:31:26 GMT+0500 (Russia TZ 4 Standard Time)
+[debug] [2017-07-05T13:31:26.922Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1beta2/operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjYvT05ZcWN0RUpjNlk  
+ Wed Jul 05 2017 18:31:26 GMT+0500 (Russia TZ 4 Standard Time)
+[debug] [2017-07-05T13:31:26.922Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1beta2/operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjcvQ1pyRzFzNHcyUUE  
+ Wed Jul 05 2017 18:31:26 GMT+0500 (Russia TZ 4 Standard Time)
+[debug] [2017-07-05T13:31:26.938Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1beta2/operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjgvQi1McUJuR1ZRLUE  
+ Wed Jul 05 2017 18:31:26 GMT+0500 (Russia TZ 4 Standard Time)
+[debug] [2017-07-05T13:31:27.592Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-05T13:31:28.577Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-05T13:31:28.577Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-05T13:31:28.593Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-05T13:31:28.609Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-05T13:31:28.609Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-05T13:31:28.640Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-05T13:31:28.656Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-05T13:31:28.677Z] [functions] operation poll: fun1: update operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjEvSDBqcTFIVko2N0k is done.
+[debug] [2017-07-05T13:31:28.678Z] [functions] operation poll: fun2: update operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjIvUkw4MGRfYzF2a2M is done.
+[debug] [2017-07-05T13:31:28.678Z] [functions] operation poll: fun3: update operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjMvT0o0RVFFekJ4QkU is not done.
+[debug] [2017-07-05T13:31:28.679Z] [functions] operation poll: fun4: update operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjQvcEV6bnhOV3hVMFU is done.
+[debug] [2017-07-05T13:31:28.679Z] [functions] operation poll: fun5: update operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjUvczRPVmlISWxVT28 is not done.
+[debug] [2017-07-05T13:31:28.679Z] [functions] operation poll: fun6: update operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjYvT05ZcWN0RUpjNlk is not done.
+[debug] [2017-07-05T13:31:28.680Z] [functions] operation poll: fun7: update operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjcvQ1pyRzFzNHcyUUE is done.
+[debug] [2017-07-05T13:31:28.680Z] [functions] operation poll: fun8: update operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjgvQi1McUJuR1ZRLUE is not done.
+[debug] [2017-07-05T13:31:33.686Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1beta2/operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjMvT0o0RVFFekJ4QkU  
+ Wed Jul 05 2017 18:31:33 GMT+0500 (Russia TZ 4 Standard Time)
+[debug] [2017-07-05T13:31:33.686Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1beta2/operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjUvczRPVmlISWxVT28  
+ Wed Jul 05 2017 18:31:33 GMT+0500 (Russia TZ 4 Standard Time)
+[debug] [2017-07-05T13:31:33.686Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1beta2/operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjYvT05ZcWN0RUpjNlk  
+ Wed Jul 05 2017 18:31:33 GMT+0500 (Russia TZ 4 Standard Time)
+[debug] [2017-07-05T13:31:33.686Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1beta2/operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjgvQi1McUJuR1ZRLUE  
+ Wed Jul 05 2017 18:31:33 GMT+0500 (Russia TZ 4 Standard Time)
+[debug] [2017-07-05T13:31:34.271Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-05T13:31:35.273Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-05T13:31:35.288Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-05T13:31:35.304Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-05T13:31:35.320Z] [functions] operation poll: fun3: update operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjMvT0o0RVFFekJ4QkU is done.
+[debug] [2017-07-05T13:31:35.320Z] [functions] operation poll: fun5: update operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjUvczRPVmlISWxVT28 is done.
+[debug] [2017-07-05T13:31:35.320Z] [functions] operation poll: fun6: update operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjYvT05ZcWN0RUpjNlk is not done.
+[debug] [2017-07-05T13:31:35.320Z] [functions] operation poll: fun8: update operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjgvQi1McUJuR1ZRLUE is done.
+[debug] [2017-07-05T13:31:40.330Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1beta2/operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjYvT05ZcWN0RUpjNlk  
+ Wed Jul 05 2017 18:31:40 GMT+0500 (Russia TZ 4 Standard Time)
+[debug] [2017-07-05T13:31:40.896Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-05T13:31:40.896Z] [functions] operation poll: fun6: update operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjYvT05ZcWN0RUpjNlk is not done.
+[debug] [2017-07-05T13:31:45.934Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1beta2/operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjYvT05ZcWN0RUpjNlk  
+ Wed Jul 05 2017 18:31:45 GMT+0500 (Russia TZ 4 Standard Time)
+[debug] [2017-07-05T13:31:46.488Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-05T13:31:46.489Z] [functions] operation poll: fun6: update operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjYvT05ZcWN0RUpjNlk is not done.
+[debug] [2017-07-05T13:31:51.495Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1beta2/operations/dGVzdC1wcm9qZWN0LTVhM2Y0L3VzLWNlbnRyYWwxL2Z1bjYvT05ZcWN0RUpjNlk  
+ Wed Jul 05 2017 18:31:51 GMT+0500 (Russia TZ 4 Standard Time)
+[debug] [2017-07-05T13:31:52.016Z] <<< HTTP RESPONSE 200
