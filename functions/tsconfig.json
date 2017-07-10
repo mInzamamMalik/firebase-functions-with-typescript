@@ -9,7 +9,7 @@
         "outDir": "./",
         "sourceMap": true,
         "noImplicitAny": true,
-        "strictNullChecks": true,
+        "strictNullChecks": false,
         "typeRoots": [
             "node_modules/@types"
         ]

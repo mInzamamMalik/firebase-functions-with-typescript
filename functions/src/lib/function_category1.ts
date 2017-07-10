@@ -1,24 +1,26 @@
 import * as functions from 'firebase-functions'
 import db from './../db'
 
-export const function1 = functions.https.onRequest(async (req, res) => {
-    res.send("this is a function");
+export const addMessage = functions.https.onRequest((req, res) => {
+    const original = req.query.text;
+    db.ref('/messages').push({ original: original }).then(snapshot => {
+        res.redirect(303, snapshot.ref);
+    });
+});
 
-    db.ref("/testing")
-        .set({ name: 'abc' }, function (error) { //this line will write in database 
-            if (error) {
-                console.log("Data could not be saved." + error);
-            } else {
-                console.log("Data saved successfully.");
-            }
-        });
-})
-export const function2 = functions.https.onRequest(async (req, res) => {
-    res.send("this is a function");
-})
+export const makeUppercase = functions.database.ref('/messages/{pushId}/original')
+    .onWrite(event => {
+        const original = event.data.val();
+        console.log('Uppercasing', event.params.pushId, original);
+        const uppercase = original.toUpperCase();
+        return event.data.ref.parent.child('uppercase').set(uppercase);
+    });
+
+
 export const function3 = functions.https.onRequest(async (req, res) => {
     res.send("this is a function");
 })
+
 export const function4 = functions.https.onRequest(async (req, res) => {
     res.send("this is a function");
 })
