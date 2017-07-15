@@ -1,6 +1,13 @@
 import * as functions from 'firebase-functions'
 import db from './../db'
+import * as _cors from 'cors';
 
+var cors = _cors({ origin: true });// set these options appropriately According to your case,
+// see document: https://www.npmjs.com/package/cors#configuration-options
+// true means allow everything
+
+
+// http example
 export const addMessage = functions.https.onRequest((req, res) => {
     const original = req.query.text;
     db.ref('/messages').push({ original: original }).then(snapshot => {
@@ -8,6 +15,7 @@ export const addMessage = functions.https.onRequest((req, res) => {
     });
 });
 
+//databse trigger example
 export const makeUppercase = functions.database.ref('/messages/{pushId}/original')
     .onWrite(event => {
         const original = event.data.val();
@@ -16,9 +24,11 @@ export const makeUppercase = functions.database.ref('/messages/{pushId}/original
         return event.data.ref.parent.child('uppercase').set(uppercase);
     });
 
-
+//cors example
 export const function3 = functions.https.onRequest(async (req, res) => {
-    res.send("this is a function");
+    cors(req, res, () => {
+        res.send("this is a function");
+    })
 })
 
 export const function4 = functions.https.onRequest(async (req, res) => {
