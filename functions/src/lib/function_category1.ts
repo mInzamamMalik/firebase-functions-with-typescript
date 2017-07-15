@@ -1,5 +1,5 @@
-import * as functions from 'firebase-functions'
-import db from './../db'
+import * as functions from 'firebase-functions';
+import * as admin from 'firebase-admin';
 import * as _cors from 'cors';
 
 var cors = _cors({ origin: true });// set these options appropriately According to your case,
@@ -10,7 +10,7 @@ var cors = _cors({ origin: true });// set these options appropriately According 
 // http example
 export const addMessage = functions.https.onRequest((req, res) => {
     const original = req.query.text;
-    db.ref('/messages').push({ original: original }).then(snapshot => {
+    admin.database().ref('/messages').push({ original: original }).then(snapshot => {
         res.redirect(303, snapshot.ref);
     });
 });

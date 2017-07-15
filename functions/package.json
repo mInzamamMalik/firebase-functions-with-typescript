@@ -4,7 +4,8 @@
   "scripts": {
     "start": "",
     "build": "webpack --watch",
-    "deploy": "firebase deploy --only functions"
+    "deploy": "firebase deploy --only functions",
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "dependencies": {
     "@types/cors": "^2.8.1",
@@ -14,9 +15,13 @@
   },
   "private": true,
   "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "mocha": "^3.4.2",
+    "sinon": "^1.17.7",
     "ts-loader": "^2.2.2",
-    "webpack-node-externals": "^1.6.0",
+    "typescript": "^2.4.1",
     "webpack": "^3.0.0",
-    "typescript": "^2.4.1"
+    "webpack-node-externals": "^1.6.0"
   }
 }
