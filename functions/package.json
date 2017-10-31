@@ -1,6 +1,7 @@
 {
   "name": "functions",
   "description": "Cloud Functions for Firebase",
+  "author": "M Inzamam Malik <malikasinger1@gmail.com>",
   "scripts": {
     "start": "",
     "build": "webpack --watch",
