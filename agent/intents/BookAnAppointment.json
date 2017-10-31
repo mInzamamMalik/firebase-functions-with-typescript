@@ -10,6 +10,28 @@
       "affectedContexts": [],
       "parameters": [
         {
+          "id": "e5cf2efe-bd74-4f55-840d-6f30401af478",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "please let me know your name"
+            },
+            {
+              "lang": "en",
+              "value": "what is your name"
+            },
+            {
+              "lang": "en",
+              "value": "your name please"
+            }
+          ],
+          "isList": false
+        },
+        {
           "id": "71b39d3d-9336-4e6d-8620-7343605c080d",
           "required": true,
           "dataType": "@PhysicianType",
@@ -66,7 +88,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1509460097,
+  "lastUpdate": 1509464124,
   "fallbackIntent": false,
   "events": []
 }

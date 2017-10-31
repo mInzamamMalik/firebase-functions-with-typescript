@@ -1,9 +1,36 @@
 [
   {
+    "id": "bf19073e-a4af-46b8-9f36-d47c3f253683",
+    "data": [
+      {
+        "text": "my name is ",
+        "userDefined": false
+      },
+      {
+        "text": "john",
+        "alias": "name",
+        "meta": "@sys.given-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1509462768
+  },
+  {
     "id": "dfeb1b6d-ed2e-44ca-b349-a0ecb9a80faf",
     "data": [
       {
-        "text": "I want to book an appointment with my ",
+        "text": "I want to book an appointment ",
+        "userDefined": false
+      },
+      {
+        "text": "with",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " my ",
         "userDefined": false
       },
       {

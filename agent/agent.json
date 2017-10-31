@@ -2,7 +2,7 @@
   "description": "Intelligent Healthcare Assistant",
   "language": "en",
   "googleAssistant": {
-    "googleAssistantCompatible": false,
+    "googleAssistantCompatible": true,
     "project": "smarthealth-c7a6a",
     "welcomeIntentSignInRequired": false,
     "startIntents": [],
