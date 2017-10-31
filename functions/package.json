@@ -10,9 +10,12 @@
   },
   "dependencies": {
     "@types/cors": "^2.8.1",
+    "@types/request": "^2.0.7",
+    "actions-on-google": "^1.5.1",
     "cors": "^2.8.4",
     "firebase-admin": "^4.1.2",
-    "firebase-functions": "^0.5"
+    "firebase-functions": "^0.5",
+    "request": "^2.83.0"
   },
   "private": true,
   "devDependencies": {
