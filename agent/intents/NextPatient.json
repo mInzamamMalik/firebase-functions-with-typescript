@@ -1,0 +1,28 @@
+{
+  "id": "6115199b-76ed-4c84-9e50-9a8006f31bc8",
+  "name": "NextPatient",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509455035273,
+  "fallbackIntent": false,
+  "events": []
+}

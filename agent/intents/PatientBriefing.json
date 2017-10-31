@@ -1,0 +1,28 @@
+{
+  "id": "440b52f3-3196-491a-9d97-d0f643fdf787",
+  "name": "PatientBriefing",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509455151,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "f7bde28c-8220-4231-b104-421c6122aa75",
+    "data": [
+      {
+        "text": "what appointments do i have",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d40aa5fb-17f8-4d8d-821d-9c6b12967461",
+    "data": [
+      {
+        "text": "When is my appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a8dd0be6-1101-4ab2-b4bf-06461179a992",
+    "data": [
+      {
+        "text": "List my appointments",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f98d1c4d-9a69-478e-a952-a38d09704020",
+    "data": [
+      {
+        "text": "check my appointments",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1c1f77cc-44e4-4795-8dcb-944921aa9329",
+    "data": [
+      {
+        "text": "when is my next appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

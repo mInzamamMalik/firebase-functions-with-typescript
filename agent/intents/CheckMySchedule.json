@@ -1,0 +1,36 @@
+{
+  "id": "415d3f22-6d34-4a1a-bc2f-5d3a5e732b80",
+  "name": "CheckMySchedule",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "80da1c7f-dda8-455f-bc32-b740abafc605",
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509454977,
+  "fallbackIntent": false,
+  "events": []
+}

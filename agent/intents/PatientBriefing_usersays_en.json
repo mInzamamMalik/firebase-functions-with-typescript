@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cc39d16b-a1d9-4c98-8a41-9a7b6cf5b604",
+    "data": [
+      {
+        "text": "briefing for @{patient}",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509455151
+  },
+  {
+    "id": "a78949e6-0c45-40c1-b6f9-0abdcb05701f",
+    "data": [
+      {
+        "text": "summary for @{patient}",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509455151
+  },
+  {
+    "id": "eb6de887-10bd-46f1-8f0a-90adac6413a8",
+    "data": [
+      {
+        "text": "give me the summary for @{patient}",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509455151
+  },
+  {
+    "id": "314e329a-572a-4812-b072-1c6a31e7181d",
+    "data": [
+      {
+        "text": "give me the briefing for {Patient}",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509455151
+  }
+]

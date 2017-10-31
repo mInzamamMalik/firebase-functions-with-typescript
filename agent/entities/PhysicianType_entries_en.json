@@ -1,0 +1,26 @@
+[
+  {
+    "value": "Doctor",
+    "synonyms": [
+      "Doctor"
+    ]
+  },
+  {
+    "value": "Dentist",
+    "synonyms": [
+      "Dentist"
+    ]
+  },
+  {
+    "value": "Pediatrician",
+    "synonyms": [
+      "Pediatrician"
+    ]
+  },
+  {
+    "value": "Gynecologist",
+    "synonyms": [
+      "Gynecologist"
+    ]
+  }
+]

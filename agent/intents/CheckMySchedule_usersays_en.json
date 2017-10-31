@@ -1,0 +1,98 @@
+[
+  {
+    "id": "104da706-18b2-4a91-86f7-2e545305c1f0",
+    "data": [
+      {
+        "text": "what\u0027s happening ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509454977
+  },
+  {
+    "id": "80879680-1183-4998-83d8-af6a4ee69292",
+    "data": [
+      {
+        "text": "what is my day like",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509454977
+  },
+  {
+    "id": "7775a5bd-7fee-4f55-a7c6-089228a080ac",
+    "data": [
+      {
+        "text": "give me my schedule",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509454977
+  },
+  {
+    "id": "ff4c471e-88e3-4dc0-8918-98589464f0c9",
+    "data": [
+      {
+        "text": "list my Schedule",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509454977
+  },
+  {
+    "id": "e0408e3b-2ce2-43b2-b982-632b24220bb2",
+    "data": [
+      {
+        "text": "what is my Schedule",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509454977
+  },
+  {
+    "id": "04df2a4f-9281-4f8d-9777-aa161a8e78a1",
+    "data": [
+      {
+        "text": "Check my schedule",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509454977
+  },
+  {
+    "id": "7ff2bda7-4648-4ecb-92c5-6423d9e2a2c9",
+    "data": [
+      {
+        "text": "who do we have ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509454977
+  }
+]

@@ -1,0 +1,72 @@
+{
+  "id": "0cef4275-e137-4da0-9303-3b42b871388c",
+  "name": "BookAnAppointment",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BookAnAppointment",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "71b39d3d-9336-4e6d-8620-7343605c080d",
+          "required": true,
+          "dataType": "@PhysicianType",
+          "name": "PhysicianType",
+          "value": "$PhysicianType",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which physician would you like to see. For example, you can make an appointment to see your doctor, dentist, or pediatrician. Please indicate the physician you need to see."
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "041ae0fd-7fbf-4aaa-bee9-b3b1c8b186c9",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "On which date would you like to see a $PhysicianType"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "652c4802-47e1-451a-913f-8902eb1730ef",
+          "required": true,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What time on $date would you like to see a $PhysicianType"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "server down"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509460097,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "dfeb1b6d-ed2e-44ca-b349-a0ecb9a80faf",
+    "data": [
+      {
+        "text": "I want to book an appointment with my ",
+        "userDefined": false
+      },
+      {
+        "text": "doctor",
+        "alias": "PhysicianType",
+        "meta": "@PhysicianType",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "at 5pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509454753
+  },
+  {
+    "id": "fb894517-3c81-4ebd-a1cf-8dd9c148f1b9",
+    "data": [
+      {
+        "text": "Schedule a ",
+        "userDefined": false
+      },
+      {
+        "text": "doctor",
+        "alias": "PhysicianType",
+        "meta": "@PhysicianType",
+        "userDefined": false
+      },
+      {
+        "text": " appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509454753
+  },
+  {
+    "id": "37d44781-6288-427b-9425-7cb40aedf4fb",
+    "data": [
+      {
+        "text": "Book an appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509454753
+  },
+  {
+    "id": "cba45978-f7b2-4558-81b1-9ac601d48726",
+    "data": [
+      {
+        "text": "Make an appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509454753
+  },
+  {
+    "id": "7a8132cf-0198-4137-a84a-7ac14510baec",
+    "data": [
+      {
+        "text": "Schedule an appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509454753
+  },
+  {
+    "id": "6620c72e-693e-4ec6-aa40-88030c2472f2",
+    "data": [
+      {
+        "text": "Make a ",
+        "userDefined": false
+      },
+      {
+        "text": "doctor",
+        "alias": "PhysicianType",
+        "meta": "@PhysicianType",
+        "userDefined": false
+      },
+      {
+        "text": " appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509454753
+  },
+  {
+    "id": "5dd18d33-0e62-4382-b6e8-94b94b4c6e02",
+    "data": [
+      {
+        "text": "Book a ",
+        "userDefined": false
+      },
+      {
+        "text": "doctor",
+        "alias": "PhysicianType",
+        "meta": "@PhysicianType",
+        "userDefined": false
+      },
+      {
+        "text": " appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
