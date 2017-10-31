@@ -2,6 +2,7 @@ import * as request from 'request';
 
 export function bookAppointment(app: any) {
 
+    let name = app.getArgument("name")
     let PhysicianType = app.getArgument("PhysicianType")
     let date = app.getArgument("date")
     let time = app.getArgument("time")
@@ -12,6 +13,7 @@ export function bookAppointment(app: any) {
     request.post({
         url: url,
         json: {
+            "name": name,
             "date": date,
             "time": time,
             "appointmentType": PhysicianType
