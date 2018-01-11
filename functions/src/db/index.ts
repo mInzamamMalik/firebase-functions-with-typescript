@@ -3,5 +3,8 @@ import * as admin from 'firebase-admin'
 
 var defaultApp = admin.initializeApp(functions.config().firebase)
 
-const db = admin.database();
-export default db;
+const firestore = admin.firestore();
+export default firestore;
+
+const firebase = admin.database();
+export { firebase }
