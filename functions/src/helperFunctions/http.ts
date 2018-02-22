@@ -22,8 +22,8 @@ export class http {
                 request.get({ url: url + query }, function (error, response, body) {
 
                     //checking if response was success
-                    if (!error && response.statusCode == 200) {
-                        let responseBody = JSON.parse(response.body)
+                    if (!error && response.statusCode === 200) {
+                        const responseBody = JSON.parse(response.body)
 
                         console.log("http get success, url: ", url, "responseBody: ", responseBody);
                         resolve(responseBody)
@@ -45,9 +45,9 @@ export class http {
             request.post({ url: url, json: jsonBody }, function (error, response, body) {
 
                 //checking if response was success
-                if (!error && (response.statusCode == 200 || response.statusCode == 201)) {
+                if (!error && (response.statusCode === 200 || response.statusCode === 201)) {
 
-                    let responseBody = response.body;
+                    const responseBody = response.body;
                     console.log("http post success, url: ", url, "request body: ", jsonBody, "responseBody: ", responseBody);
 
                     resolve(responseBody)

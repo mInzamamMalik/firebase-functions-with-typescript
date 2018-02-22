@@ -3,7 +3,7 @@ export class welcomeActions {
 
     static inputwelcome = function (app: any) {
 
-        let param1 = app.getArgument("param1")
+        const param1 = app.getArgument("param1")
 
         console.log("param1: ", param1)
 

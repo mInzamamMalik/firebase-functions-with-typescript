@@ -3,7 +3,7 @@ import * as admin from 'firebase-admin';
 import * as _cors from 'cors';
 import firestore from './../db'
 
-var cors = _cors({ origin: true });// set these options appropriately According to your case,
+const cors = _cors({ origin: true });// set these options appropriately According to your case,
 // see document: https://www.npmjs.com/package/cors#configuration-options
 // true means allow everything
 

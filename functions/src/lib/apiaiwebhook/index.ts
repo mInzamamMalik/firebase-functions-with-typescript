@@ -16,7 +16,7 @@ const help = 'help';
 export const webhook = functions.https.onRequest(async (request: Request, response: Response) => {
     try {
         const assistant = new Assistant({ request: request, response: response });
-        let actionMap = new Map();
+        const actionMap = new Map();
 
         actionMap.set(inputwelcome, welcomeActions.inputwelcome);
         actionMap.set(help, welcomeActions.help);
