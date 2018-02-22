@@ -1,6 +1,4 @@
-import * as admin from 'firebase-admin';
 import * as functions from 'firebase-functions';
-import * as functionRequest from 'request';
 const Assistant = require('actions-on-google').DialogflowApp;
 
 import { Request, Response } from "express"; //interfaces
