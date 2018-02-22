@@ -1,23 +1,14 @@
 {
-    "compilerOptions": {
-        "lib": [
-            "es6",
-            "es2015.promise"
-        ],
-        "module": "commonjs",
-        "target": "es6",
-        "outDir": "./",
-        "sourceMap": true,
-        "noImplicitAny": true,
-        "strictNullChecks": false,
-        "typeRoots": [
-            "node_modules/@types"
-        ]
-    },
-    "include": [
-        "src/**/*.ts"
-    ],
-    "exclude": [
-        "node_modules"
-    ]
+  "compilerOptions": {
+    "lib": ["es6"],
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "target": "es6"
+  },
+  "compileOnSave": true,
+  "include": [
+    "src"
+  ]
 }

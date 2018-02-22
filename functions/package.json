@@ -3,29 +3,22 @@
   "description": "Cloud Functions for Firebase",
   "author": "M Inzamam Malik <malikasinger1@gmail.com>",
   "scripts": {
-    "start": "",
-    "build": "webpack --watch",
+    "lint": "./node_modules/.bin/tslint -p tslint.json",
+    "build": "./node_modules/.bin/tsc",
+    "serve": "npm run build && firebase serve --only functions",
+    "shell": "npm run build && firebase experimental:functions:shell",
+    "start": "npm run shell",
     "deploy": "firebase deploy --only functions",
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "logs": "firebase functions:log"
   },
+  "main": "lib/index.js",
   "dependencies": {
-    "@types/cors": "^2.8.1",
-    "@types/request": "^2.0.9",
-    "actions-on-google": "^1.7.0",
-    "cors": "^2.8.4",
-    "firebase-admin": "^5.5.1",
-    "firebase-functions": "^0.5",
-    "request": "^2.83.0"
+    "firebase-admin": "~5.8.1",
+    "firebase-functions": "^0.8.1"
   },
-  "private": true,
   "devDependencies": {
-    "chai": "^3.5.0",
-    "chai-as-promised": "^6.0.0",
-    "mocha": "^3.4.2",
-    "sinon": "^1.17.7",
-    "ts-loader": "^2.2.2",
-    "typescript": "^2.4.1",
-    "webpack": "^3.0.0",
-    "webpack-node-externals": "^1.6.0"
-  }
+    "tslint": "^5.8.0",
+    "typescript": "^2.5.3"
+  },
+  "private": true
 }
